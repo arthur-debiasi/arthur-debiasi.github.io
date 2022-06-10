@@ -2,10 +2,10 @@ body {
   margin-left: 5vw;
   background-color: #0d3b66;
   background-image: url("photo-debiasi.jpeg");
-  background-size: 50vw;
+  background-size: 40vw;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: 55vw center;
   font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 2vw;
   color: #FAF0CA;
