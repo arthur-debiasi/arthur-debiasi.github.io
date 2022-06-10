@@ -1,11 +1,14 @@
 body {
   background-color: #468c98;
   background-image: url("photo-debiasi.jpeg");
-  background-size: 800px ;
+  background-size: 50vw ;
+  background-attachment: fixed;
   background-repeat:no-repeat;
   background-position: right center;
   font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2vw;
   color: #453f78;
+  width: 50vw;
 }
 
 h1,
