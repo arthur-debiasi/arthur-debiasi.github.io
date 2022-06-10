@@ -1,29 +1,38 @@
 body {
-    background-color: #468C98;
-    font-family:Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #453F78
+  background-color: #468c98;
+  background-image: url("photo-debiasi.jpeg");
+  background-size: 200px ;
+  background-repeat:repeat
+  font-family: Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #453f78;
 }
 
-h1, h2 {
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #F58F29;
+h1,
+h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #f58f29;
 }
 
 li {
-    list-style:none;
+  list-style: none;
 }
 .aboutme {
-    color: #DA4167;
-    text-decoration: none;
+  color: #da4167;
+  text-decoration: none;
 }
 em {
-    color: #B38D97;
-    font-weight: bold;
+  color: #b38d97;
+  font-weight: bold;
 }
 .button {
-    background-color: #F58F29;
-    color: #468C98;
-    padding: 8px 16px;
-    line-height: 50px;
-    border-radius: 6px;
+  background-color: #f58f29;
+  color: #468c98;
+  padding: 8px 16px;
+  line-height: 50px;
+  border-radius: 6px;
 }
+#ad-photo {
+  float: right;
+}
+
