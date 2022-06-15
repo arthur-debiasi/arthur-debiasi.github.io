@@ -122,8 +122,8 @@ a {
 #fish-blue, .main-gift, .heart-blue, .house-blue, .moon-blue {color:#4EBEF6}
 #candy-yellow,.main-sun, .main-face, .moon-yellow  {color:#F6F64E}
 .main-frog, .apple-green{color: #4EF686}
-.main-carrot, .house-orange{color: #F6A24E}
-.spider-black, .dog-black{color: black;}
+.main-carrot, .guitar-orange, .house-orange{color: #F6A24E}
+.spider-black, .dog-black, .guitar-black {color: black;}
 #hidden {
   visibility: hidden;
 }
