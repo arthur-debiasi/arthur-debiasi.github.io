@@ -22,17 +22,18 @@ h2 {
 }
 
 header {
-  background-color: #F64E4E;
+  background-color: black;
   grid-area: header;
   display: grid;
   align-items: center;
   font-size: 2vw;
   text-indent: 2vw;
   font-variant-caps: small-caps;
+  color: #9f9f9f;
 }
 nav {
   font-variant-caps: small-caps;
-  background-color: #F6A24E;
+  background-color:#DA4EF6;
   grid-area: nav;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -59,7 +60,7 @@ main {
 }
 footer {
   display: grid;
-  background-color: #F6A24E;
+  background-color:#DA4EF6;
   grid-area: footer;
   text-align: center;
   font-size: 2vw;
@@ -72,7 +73,7 @@ a {
 .result2:hover{background-color:#DA4EF6; color: white;}
 .result3:hover{background-color:#DA4EF6; color: white;}
 .nav,.portifolio, .footer,a:link{
-  color: black;
+  color: #161616;
 }
 .container-index {
   display: grid;
@@ -117,10 +118,10 @@ a {
     "s5 s10";
   color: #F64E4E;
 }
-.dove-white, .dog-white, .car-white{color: whitesmoke;}
+.dove-white, .dog-white, .car-white, .star-white  {color: whitesmoke;}
 #fish-red,#candy-red, .spider-red, .apple-red, .car-red, .rocket-red{color:#F64E4E;}
 #fish-blue, .main-gift, .heart-blue, .house-blue, .moon-blue {color:#4EBEF6}
-#candy-yellow,.main-sun, .main-face, .moon-yellow, .paw-yellow, .poo-yellow {color:#F6F64E}
+#candy-yellow,.main-sun, .main-face, .moon-yellow, .paw-yellow, .poo-yellow, .star-yellow{color:#F6F64E}
 .main-frog, .apple-green, .jet-green{color: #4EF686}
 .main-carrot, .guitar-orange, .house-orange, .key-orange, .rocket-orange {color: #F6A24E}
 .spider-black, .dog-black, .guitar-black, .paw-black {color: black;}
