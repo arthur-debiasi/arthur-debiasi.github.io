@@ -6,7 +6,7 @@ body {
   padding: 0;
   width: 100%;
   height: 100%;
-  background-color: #fed9b7;
+  background-color: #864EF6;
   font-family: monospace;
   font-size: 1vw;
 }
@@ -22,7 +22,7 @@ h2 {
 }
 
 header {
-  background-color: #f07167;
+  background-color: #F64E4E;
   grid-area: header;
   display: grid;
   align-items: center;
@@ -32,7 +32,7 @@ header {
 }
 nav {
   font-variant-caps: small-caps;
-  background-color: #00afb9;
+  background-color: #F6A24E;
   grid-area: nav;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -59,7 +59,7 @@ main {
 }
 footer {
   display: grid;
-  background-color: #0081a7;
+  background-color: #F6A24E;
   grid-area: footer;
   text-align: center;
   font-size: 2vw;
@@ -68,9 +68,9 @@ footer {
 a {
   text-decoration: none;
 }
-.result1:hover{background-color:#fdc500;}
-.result2:hover{background-color:#fdc500;}
-.result3:hover{background-color:#fdc500;}
+.result1:hover{background-color:#DA4EF6; color: white;}
+.result2:hover{background-color:#DA4EF6; color: white;}
+.result3:hover{background-color:#DA4EF6; color: white;}
 .nav,.portifolio, .footer,a:link{
   color: black;
 }
@@ -105,7 +105,7 @@ a {
     "f3 f8"
     "f4 f9"
     "f5 f10";
-  color: #566e3d;
+  color: #4EF686;
 }
 .second-num {
   grid-area: second-num;
@@ -115,14 +115,14 @@ a {
     "s3 s8"
     "s4 s9"
     "s5 s10";
-  color: #f07167;
+  color: #F64E4E;
 }
 .dove-white{color: whitesmoke;}
-#fish-red,#candy-red, .spider-red{color:#f07167;}
-#fish-blue, .main-gift, .heart-blue, .house-blue, .moon-blue {color:#00afb9}
-#candy-yellow,.main-sun, .main-face, .moon-yellow  {color:#fdc500}
-.main-frog {color: #566e3d}
-.main-carrot, .house-orange{color: #fca253}
+#fish-red,#candy-red, .spider-red{color:#F64E4E;}
+#fish-blue, .main-gift, .heart-blue, .house-blue, .moon-blue {color:#4EBEF6}
+#candy-yellow,.main-sun, .main-face, .moon-yellow  {color:#F6F64E}
+.main-frog {color: #4EF686}
+.main-carrot, .house-orange{color: #F6A24E}
 .spider-black {color: black;}
 #hidden {
   visibility: hidden;
@@ -149,15 +149,15 @@ a {
 }
 .result1 {
   grid-area: result1;
-  background-color: #f07167;
+  background-color: #F64E4E;
 }
 .result2 {
   grid-area: result2;
-  background-color: #0081a7;
+  background-color: #F6F64E;
 }
 .result3 {
   grid-area: result3;
-  background-color: #566e3d;
+  background-color: #4EF686;
 }
 .result1,
 .result2,
@@ -181,10 +181,10 @@ a {
   margin: auto;
 }
 #a-correct {
-  color: #566e3d;
+  color: #4EF686;
 }
 #a-wrong{
-  color: #f07167;
+  color: #F64E4E;
 }
 
 .f1,
