@@ -1,0 +1,277 @@
+/* Aqui eu reseto a página */
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fed9b7;
+  font-family: monospace;
+  font-size: 1vw;
+}
+h1 {
+  font-size: 2vw;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: 2vw;
+  margin: 0;
+  text-indent: 2vw;
+}
+
+header {
+  background-color: #f07167;
+  grid-area: header;
+  display: grid;
+  align-items: center;
+  font-size: 2vw;
+  text-indent: 2vw;
+  font-variant-caps: small-caps;
+}
+nav {
+  font-variant-caps: small-caps;
+  background-color: #00afb9;
+  grid-area: nav;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  align-content: center;
+  justify-content: stretch;
+  text-align: center;
+  font-size: 2.1vw;
+}
+.nav:hover{text-decoration: underline;}
+.portifolio:hover{text-decoration: underline;}
+main {
+  grid-area: main;
+}
+
+.main-h2, .main-p, .main-ul, .main-li{
+  margin: 2vw;
+
+}
+.main-h2 {
+  font-size: 4vh;
+}
+.main-p, .main-li{
+  font-size: 3vh;
+}
+footer {
+  display: grid;
+  background-color: #0081a7;
+  grid-area: footer;
+  text-align: center;
+  font-size: 2vw;
+  align-self: stretch;
+}
+a {
+  text-decoration: none;
+}
+.result1:hover{background-color:#fdc500;}
+.result2:hover{background-color:#fdc500;}
+.result3:hover{background-color:#fdc500;}
+.nav,.portifolio, .footer,a:link{
+  color: black;
+}
+.container-index {
+  display: grid;
+  grid-template-columns: 30vw 10vw 30vw 10vw 20vw;
+  grid-template-rows: 5vh 90vh 5vh;
+  grid-template-areas:
+    "header  nav    nav    nav    nav   "
+    "main    main   main   main   main  "
+    "footer footer footer footer footer";
+}
+.container-main {
+  display: grid;
+  grid-template-columns: 30vw 10vw 30vw 10vw 20vw;
+  grid-template-rows: 75vh;
+  grid-template-areas: "first-num operator second-num equals results";
+  text-align: center;
+}
+.first-num,
+.second-num {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  font-size: 6.5vw;
+}
+.first-num {
+  grid-area: first-num;
+  grid-template-areas:
+    "f1 f6"
+    "f2 f7"
+    "f3 f8"
+    "f4 f9"
+    "f5 f10";
+  color: #566e3d;
+}
+.second-num {
+  grid-area: second-num;
+  grid-template-areas:
+    "s1 s6"
+    "s2 s7"
+    "s3 s8"
+    "s4 s9"
+    "s5 s10";
+  color: #f07167;
+}
+.dove-white{color: whitesmoke;}
+#fish-red,#candy-red, .spider-red{color:#f07167;}
+#fish-blue, .main-gift, .heart-blue, .house-blue, .moon-blue {color:#00afb9}
+#candy-yellow,.main-sun, .main-face, .moon-yellow  {color:#fdc500}
+.main-frog {color: #566e3d}
+.main-carrot, .house-orange{color: #fca253}
+.spider-black {color: black;}
+#hidden {
+  visibility: hidden;
+}
+.operator {
+  grid-area: operator;
+}
+.equals {
+  grid-area: equals;
+}
+.operator,
+.equals {
+  font-size: 6vw;
+}
+.results {
+  grid-area: results;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas:
+    "result1"
+    "result2"
+    "result3";
+}
+.result1 {
+  grid-area: result1;
+  background-color: #f07167;
+}
+.result2 {
+  grid-area: result2;
+  background-color: #0081a7;
+}
+.result3 {
+  grid-area: result3;
+  background-color: #566e3d;
+}
+.result1,
+.result2,
+.result3 {
+  font-size: 8vw;
+  color: black;
+  padding: 0.75vh 0.75vw;
+  border: solid black 0.5vh;
+  border-radius: 4vh;
+  justify-self: center;
+  align-self: center;
+}
+#a-wrong, #a-correct{
+  display: grid;
+  align-items: center;
+  font-size: 7vw;
+  text-align: center;
+  height: 55vh;
+  padding: 4vh;
+  align-self: center;
+  margin: auto;
+}
+#a-correct {
+  color: #566e3d;
+}
+#a-wrong{
+  color: #f07167;
+}
+
+.f1,
+.f2,
+.f3,
+.f4,
+.f5,
+.f6,
+.f7,
+.f8,
+.f9,
+.f10,
+.s1,
+.s2,
+.s3,
+.s4,
+.s5,
+.s6,
+.s7,
+.s8,
+.s9,
+.s10,
+.operator,
+.equals,
+.result1,
+.result2,
+.result3 {
+  align-self: center;
+  justify-self: center;
+}
+.f1 {
+  grid-area: f1;
+}
+.f2 {
+  grid-area: f2;
+}
+.f3 {
+  grid-area: f3;
+}
+.f4 {
+  grid-area: f4;
+}
+.f5 {
+  grid-area: f5;
+}
+.f6 {
+  grid-area: f6;
+}
+.f7 {
+  grid-area: f7;
+}
+.f8 {
+  grid-area: f8;
+}
+.f9 {
+  grid-area: f9;
+}
+.f10 {
+  grid-area: f10;
+}
+.s1 {
+  grid-area: s1;
+}
+.s2 {
+  grid-area: s2;
+}
+.s3 {
+  grid-area: s3;
+}
+.s4 {
+  grid-area: s4;
+}
+.s5 {
+  grid-area: s5;
+}
+.s6 {
+  grid-area: s6;
+}
+.s7 {
+  grid-area: s7;
+}
+.s8 {
+  grid-area: s8;
+}
+.s9 {
+  grid-area: s9;
+}
+.s10 {
+  grid-area: s10;
+}
