@@ -127,6 +127,7 @@ a {
 #hidden {
   visibility: hidden;
 }
+.opacity {opacity: 0.33;}
 .operator {
   grid-area: operator;
 }
