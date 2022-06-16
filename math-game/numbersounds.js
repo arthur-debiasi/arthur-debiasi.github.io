@@ -48,3 +48,6 @@ audioUeba.src = "./tts/ueba.mp3"
 
 const audioTAgain = new Audio();
 audioTAgain.src = "./tts/tente-novamente-camila.mp3"
+
+const audioTriumph = new Audio();
+audioTriumph.src = "./tts/triumph-jingle-40125.mp3"
