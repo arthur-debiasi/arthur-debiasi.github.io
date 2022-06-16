@@ -30,7 +30,7 @@
           <div class="first-num">
             <div id="hidden" class="f1"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f2"><i class="fa-solid fa-frog"></i></div>
-            <div class="f3"><i class="fa-solid fa-frog"></i></div>
+            <div class="f3"><i class="fa-solid fa-frog" onclick="audio01.play();"></i></div>
             <div id="hidden" class="f4"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f5"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f6"><i class="fa-solid fa-frog"></i></div>
@@ -49,14 +49,14 @@
             <div id="hidden" class="s6"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="s7"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="s8"><i class="fa-solid fa-frog"></i></div>
-            <div class="s9"><i class="fa-solid fa-frog"></i></div>
+            <div class="s9"><i class="fa-solid fa-frog" onclick="audio02.play();"></i></div>
             <div id="hidden" class="s10"><i class="fa-solid fa-frog"></i></div>
           </div>
           <div class="equals"><i class="fa-solid fa-equals"></i></div>
           <div class="results">
-            <div><a class="result1" href="01-answer-correct.html">2</a></div>
-            <div><a class="result2" href="01-answer-wrong.html">1</a></div>
-            <div><a class="result3" href="01-answer-wrong.html">3</a></div>
+            <div><a class="result1" href="01-answer-correct.html" onmouseover="audio02.play();">2</a></div>
+            <div><a class="result2" href="01-answer-wrong.html" onmouseover="audio01.play();">1</a></div>
+            <div><a class="result3" href="01-answer-wrong.html" onmouseover="audio03.play();">3</a></div>
           </div>
         </div>
       </main>
@@ -65,9 +65,9 @@
           href="https://arthur-debiasi.github.io/"
           class="portifolio"
           target="_blank"
-          >Desenvolvido por Arthur Debiasi</a
-        >
+          >Desenvolvido por Arthur Debiasi</a>
       </footer>
     </div>
+    <script src="numbersounds.js" type="text/javascript" defer="defer"></script>
   </body>
 </html>

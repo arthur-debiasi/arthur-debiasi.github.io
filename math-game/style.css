@@ -218,6 +218,7 @@ a {
 .result3 {
   align-self: center;
   justify-self: center;
+  cursor:pointer;
 }
 .f1 {
   grid-area: f1;
