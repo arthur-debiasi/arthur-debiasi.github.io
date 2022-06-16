@@ -30,3 +30,21 @@ audio10.src = "./tts/tts-10.mp3"
 
 const audio11 = new Audio();
 audio11.src = "./tts/tts-11.mp3"
+
+const audioEquals = new Audio();
+audioEquals.src = "./tts/equals.mp3"
+
+const audioPlus = new Audio();
+audioPlus.src = "./tts/plus.mp3"
+
+const audioMinus = new Audio();
+audioMinus.src = "./tts/minus.mp3"
+
+const audioGJ = new Audio();
+audioGJ.src = "./tts/bom-trabalho-camila.mp3"
+
+const audioUeba = new Audio();
+audioUeba.src = "./tts/ueba.mp3"
+
+const audioTAgain = new Audio();
+audioTAgain.src = "./tts/tente-novamente-camila.mp3"
