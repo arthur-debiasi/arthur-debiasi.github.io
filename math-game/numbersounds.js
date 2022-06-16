@@ -27,3 +27,6 @@ audio09.src = "./tts/tts-09.mp3"
 
 const audio10 = new Audio();
 audio10.src = "./tts/tts-10.mp3"
+
+const audio11 = new Audio();
+audio11.src = "./tts/tts-11.mp3"
