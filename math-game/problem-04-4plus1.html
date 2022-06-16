@@ -28,16 +28,16 @@
 
         <div class="container-main">
           <div class="first-num">
-            <div class="f1"><i class="heart-blue fa-solid fa-heart"></i></div>
+            <div class="f1"><i class="heart-blue fa-solid fa-heart" onclick="audio01.play();"></i></div>
             <div id="hidden" class="f2"><i class="fa-solid fa-heart"></i></div>
-            <div class="f3"><i class="heart-blue fa-solid fa-heart"></i></div>
+            <div class="f3"><i class="heart-blue fa-solid fa-heart" onclick="audio03.play();"></i></div>
             <div id="hidden" class="f4"><i class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="f5"><i class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="f6"><i class="fa-solid fa-heart"></i></div>
-            <div class="f7"><i class="heart-blue fa-solid fa-heart"></i></div>
+            <div class="f7"><i class="heart-blue fa-solid fa-heart" onclick="audio02.play();"></i></div>
             <div id="hidden" class="f8"><i class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="f9"><i class="fa-solid fa-heart"></i></div>
-            <div class="f10"><i class="heart-blue fa-solid fa-heart"></i></div>
+            <div class="f10"><i class="heart-blue fa-solid fa-heart" onclick="audio04.play();"></i></div>
           </div>
           <div class="operator"><i class="fa-solid fa-plus"></i></div>
           <div class="second-num">
@@ -47,16 +47,16 @@
             <div id="hidden" class="s4"><i class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="s5"><i id="candy-red" class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="s6"><i class="fa-solid fa-heart"></i></div>
-            <div class="s7"><i id="candy-red" class="fa-solid fa-heart"></i></div>
+            <div class="s7"><i id="candy-red" class="fa-solid fa-heart" onclick="audio05.play();"></i></div>
             <div id="hidden" class="s8"><i class="fa-solid fa-heart"></i></div>
             <div id="hidden"  class="s9"><i id="candy-red" class="fa-solid fa-heart"></i></div>
             <div id="hidden" class="s10"><i class="fa-solid fa-heart"></i></div>
           </div>
           <div class="equals"><i class="fa-solid fa-equals"></i></div>
           <div class="results">
-            <div><a class="result1" href="04-answer-wrong.html" class="wrong">6</a></div>
-            <div><a class="result2" href="04-answer-correct.html" class="correct">5</a></div>
-            <div><a class="result3" href="04-answer-wrong.html" class="wrong">3 </a></div>
+            <div><a class="result1" href="04-answer-wrong.html" class="wrong" onmouseover="audio06.play();">6</a></div>
+            <div><a class="result2" href="04-answer-correct.html" class="correct" onmouseover="audio05.play();">5</a></div>
+            <div><a class="result3" href="04-answer-wrong.html" class="wrong" onmouseover="audio03.play();">3</a></div>
           </div>
         </div>
       </main>
@@ -69,5 +69,6 @@
         >
       </footer>
     </div>
+    <script src="numbersounds.js" type="text/javascript" defer="defer"></script>
   </body>
 </html>
