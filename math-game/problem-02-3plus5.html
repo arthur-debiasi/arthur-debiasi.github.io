@@ -22,41 +22,62 @@
         <a href="soon-page.html" class="nav">Divisão</a>
       </nav>
       <main>
-          <br>
-          <h2>2.  Quanto é 3 + 5 ?</h2>
-          <br>
+        <br />
+        <h2>2. Quanto é 3 + 5 ?</h2>
+        <br />
 
         <div class="container-main">
           <div class="first-num">
             <div id="hidden" class="f1"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f2"><i class="fa-solid fa-frog"></i></div>
-            <div class="f3"><i id="fish-red" class="fa-solid fa-fish-fins"></i></div>
+            <div class="f3"><i id="fish-red" class="fa-solid fa-fish-fins" onclick="audio02.play();"></i>
+            </div>
             <div id="hidden" class="f4"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f5"><i class="fa-solid fa-frog"></i></div>
-            <div class="f6"><i id="fish-red" class="fa-solid fa-fish-fins"></i></div>
+            <div class="f6"><i id="fish-red" class="fa-solid fa-fish-fins" onclick="audio01.play();"></i>
+            </div>
             <div id="hidden" class="f7"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f8"><i class="fa-solid fa-frog"></i></div>
             <div id="hidden" class="f9"><i class="fa-solid fa-frog"></i></div>
-            <div class="f10"><i id="fish-red" class="fa-solid fa-fish-fins"></i></div>
+            <div class="f10">
+              <i id="fish-red" class="fa-solid fa-fish-fins" onclick="audio03.play();"></i>
+            </div>
           </div>
           <div class="operator"><i class="fa-solid fa-plus"></i></div>
           <div class="second-num">
-            <div class="s1"><i id="fish-blue" class="fa-solid fa-fish-fins"></i></div>
+            <div class="s1">
+              <i id="fish-blue" class="fa-solid fa-fish-fins" onclick="audio04.play();"></i>
+            </div>
             <div id="hidden" class="s2"><i class="fa-solid fa-frog"></i></div>
-            <div class="s3"><i id="fish-blue" class="fa-solid fa-fish-fins"></i></div>
+            <div class="s3">
+              <i id="fish-blue" class="fa-solid fa-fish-fins" onclick="audio06.play();"></i>
+            </div>
             <div id="hidden" class="s4"><i class="fa-solid fa-frog"></i></div>
-            <div class="s5"><i id="fish-blue" class="fa-solid fa-fish-fins"></i></div>
+            <div class="s5">
+              <i id="fish-blue" class="fa-solid fa-fish-fins" onclick="audio08.play();"></i>
+            </div>
             <div id="hidden" class="s6"><i class="fa-solid fa-frog"></i></div>
-            <div class="s7"><i id="fish-blue" class="fa-solid fa-fish-fins"></i></div>
+            <div class="s7">
+              <i id="fish-blue" class="fa-solid fa-fish-fins" onclick="audio05.play();"></i>
+            </div>
             <div id="hidden" class="s8"><i class="fa-solid fa-frog"></i></div>
-            <div class="s9"><i id="fish-blue" class="fa-solid fa-fish-fins"></i></div>
+            <div class="s9">
+              <i id="fish-blue" class="fa-solid fa-fish-fins" onclick="audio07.play();"></i>
+            </div>
             <div id="hidden" class="s10"><i class="fa-solid fa-frog"></i></div>
           </div>
           <div class="equals"><i class="fa-solid fa-equals"></i></div>
           <div class="results">
-            <div><a class="result1" href="02-answer-wrong.html" class="wrong">6</a></div>
-            <div><a class="result2" href="02-answer-wrong.html" class="wrong">7</a></div>
-            <div><a class="result3" href="02-answer-correct.html" class="correct">8</a></div>
+            <div>
+              <a class="result1" href="02-answer-wrong.html" class="wrong" onmouseover="audio06.play();">6</a>
+            </div>
+            <div>
+              <a class="result2" href="02-answer-wrong.html" class="wrong" onmouseover="audio07.play();">7</a>
+            </div>
+            <div>
+              <a class="result3" href="02-answer-correct.html" class="correct" onmouseover="audio08.play();">8</a
+              >
+            </div>
           </div>
         </div>
       </main>
@@ -69,5 +90,6 @@
         >
       </footer>
     </div>
+    <script src="numbersounds.js" type="text/javascript" defer="defer"></script>
   </body>
 </html>
