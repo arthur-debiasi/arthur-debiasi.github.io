@@ -28,35 +28,35 @@
 
         <div class="container-main">
           <div class="first-num">
-            <div class="f1"><i class="spider-red fa-solid fa-spider"></i></div>
+            <div class="f1"><i class="spider-red fa-solid fa-spider" onclick="audio01.play();"></i></div>
             <div id="hidden" class="f2"><i class="spider-red fa-solid fa-spider"></i></div>
-            <div class="f3"><i class="spider-red fa-solid fa-spider"></i></div>
+            <div class="f3"><i class="spider-red fa-solid fa-spider" onclick="audio03.play();"></i></div>
             <div id="hidden" class="f4"><i class="spider-red fa-solid fa-spider"></i></div>
-            <div class="f5"><i class="spider-red fa-solid fa-spider"></i></div>
+            <div class="f5"><i class="spider-red fa-solid fa-spider" onclick="audio05.play();"></i></div>
             <div id="hidden" class="f6"><i class="spider-red fa-solid fa-spider"></i></div>
-            <div class="f7"><i class="spider-red fa-solid fa-spider"></i></div>
+            <div class="f7"><i class="spider-red fa-solid fa-spider" onclick="audio02.play();"></i></div>
             <div id="hidden" class="f8"><i class="spider-red fa-solid fa-spider"></i></div>
-            <div class="f9"><i class="spider-red fa-solid fa-spider"></i></div>
+            <div class="f9"><i class="spider-red fa-solid fa-spider" onclick="audio04.play();"></i></div>
             <div id="hidden" class="f10"><i class="spider-red fa-solid fa-spider"></i></div>
           </div>
           <div class="operator"><i class="fa-solid fa-plus"></i></div>
           <div class="second-num">
             <div id="hidden" class="s1"><i class="spider-black fa-solid fa-spider"></i></div>
             <div id="hidden" class="s2"><i class="spider-black fa-solid fa-spider"></i></div>
-            <div class="s3"><i class="spider-black fa-solid fa-spider"></i></div>
+            <div class="s3"><i class="spider-black fa-solid fa-spider" onclick="audio06.play();"></i></div>
             <div id="hidden" class="s4"><i class="spider-black fa-solid fa-spider"></i></div>
             <div id="hidden" class="s5"><i class="spider-black fa-solid fa-spider"></i></div>
             <div id="hidden" class="s6"><i class="spider-black fa-solid fa-spider"></i></div>
             <div id="hidden" class="s7"><i class="spider-black fa-solid fa-spider"></i></div>
-            <div class="s8"><i class="spider-black fa-solid fa-spider"></i></div>
+            <div class="s8"><i class="spider-black fa-solid fa-spider" onclick="audio07.play();"></i></div>
             <div id="hidden" class="s9"><i class="spider-black fa-solid fa-spider"></i></div>
             <div id="hidden" class="s10"><i class="spider-black fa-solid fa-spider"></i></div>
           </div>
           <div class="equals"><i class="fa-solid fa-equals"></i></div>
           <div class="results">
-            <div><a class="result1" href="09-answer-wrong.html" class="wrong">8</a></div> 
-            <div><a class="result2" href="09-answer-wrong.html" class="wrong">6</a></div>
-            <div><a class="result3" href="09-answer-correct.html" class="correct">7</a></div>
+            <div><a class="result1" href="09-answer-wrong.html" class="wrong" onmouseover="audio08.play();">8</a></div> 
+            <div><a class="result2" href="09-answer-wrong.html" class="wrong" onmouseover="audio06.play();">6</a></div>
+            <div><a class="result3" href="09-answer-correct.html" class="correct" onmouseover="audio07.play();">7</a></div>
           </div>
         </div>
       </main>
@@ -69,5 +69,6 @@
         >
       </footer>
     </div>
+    <script src="numbersounds.js" type="text/javascript" defer="defer"></script>
   </body>
 </html>
