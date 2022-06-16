@@ -30,7 +30,7 @@
           <div class="first-num">
             <div id="hidden" class="f1"><i class="fa-solid fa-dove"></i></div>
             <div id="hidden" class="f2"><i class="fa-solid fa-dove"></i></div>
-            <div class="f3"><i class="fa-solid fa-dove"></i></div>
+            <div class="f3"><i class="fa-solid fa-dove" onclick="audio01.play();"></i></div>
             <div id="hidden" class="f4"><i class="fa-solid fa-dove"></i></div>
             <div id="hidden" class="f5"><i class="fa-solid fa-dove"></i></div>
             <div id="hidden" class="f6"><i class="fa-solid fa-dove"></i></div>
@@ -41,22 +41,22 @@
           </div>
           <div class="operator"><i class="fa-solid fa-plus"></i></div>
           <div class="second-num">
-            <div class="s1"><i class="dove-white fa-solid fa-dove"></i></div>
+            <div class="s1"><i class="dove-white fa-solid fa-dove" onclick="audio02.play();"></i></div>
             <div id="hidden" class="s2"><i class="fa-solid fa-dove"></i></div>
-            <div class="s3"><i class="dove-white fa-solid fa-dove"></i></div>
+            <div class="s3"><i class="dove-white fa-solid fa-dove" onclick="audio04.play();"></i></div>
             <div id="hidden" class="s4"><i class="fa-solid fa-dove"></i></div>
-            <div class="s5"><i class="dove-white fa-solid fa-dove"></i></div>
-            <div class="s6"><i class="dove-white fa-solid fa-dove"></i></div>
+            <div class="s5"><i class="dove-white fa-solid fa-dove" onclick="audio06.play();"></i></div>
+            <div class="s6"><i class="dove-white fa-solid fa-dove" onclick="audio03.play();"></i></div>
             <div id="hidden" class="s7"><i class="fa-solid fa-dove"></i></div>
-            <div class="s8"><i class="dove-white fa-solid fa-dove"></i></div>
+            <div class="s8"><i class="dove-white fa-solid fa-dove" onclick="audio05.play();"></i></div>
             <div id="hidden" class="s9"><i class="fa-solid fa-dove"></i></div>
-            <div class="s10"><i class="dove-white fa-solid fa-dove"></i></div>
+            <div class="s10"><i class="dove-white fa-solid fa-dove" onclick="audio07.play();"></i></div>
           </div>
           <div class="equals"><i class="fa-solid fa-equals"></i></div>
           <div class="results">
-            <div><a class="result1" href="07-answer-wrong.html" class="wrong">8</a></div> 
-            <div><a class="result2" href="07-answer-correct.html" class="correct">7</a></div>
-            <div><a class="result3" href="07-answer-wrong.html" class="wrong">6</a></div>
+            <div><a class="result1" href="07-answer-wrong.html" class="wrong" onmouseover="audio08.play();">8</a></div> 
+            <div><a class="result2" href="07-answer-correct.html" class="correct" onmouseover="audio07.play();">7</a></div>
+            <div><a class="result3" href="07-answer-wrong.html" class="wrong" onmouseover="audio06.play();">6</a></div>
           </div>
         </div>
       </main>
@@ -69,5 +69,6 @@
         >
       </footer>
     </div>
+    <script src="numbersounds.js" type="text/javascript" defer="defer"></script>
   </body>
 </html>
