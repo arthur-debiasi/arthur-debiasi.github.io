@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arthur Debiasi's Web Portifolio</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="name"><h1>Arthur Debiasi</h1></div>
+    <h3 class="aboutme">About Me</h3>
+
+    <ul class="aboutme">
+      <li><a href="#description" , class="button">Description</a></li>
+      <li><a href="#skills" , class="button">Skills</a></li>
+      <li><a href="#projects" , class="button">My Personal Projects</a></li>
+    </ul>
+
+    <div id="description">
+      <h2 id="description">Description</h2>
+
+      <p>I'm a <em>brazilian</em> Web Development Student at Trybe School.</p>
+      <p>I'm 29 years old.</p>
+      <p>I'm currently living in Macaé, in the state of Rio de Janeiro</p>
+    </div>
+
+    <h2 id="skills">Web Dev Skills</h2>
+   <ul>
+       <li>Bash</li>
+       <li>Hyper Text Markup Language</li>
+       <li>Cascade Style Sheets</li>
+   </ul>
+   
+
+    <h2 id="skills">Other Skills</h2>
+
+    <ul>
+      <li><strong>Bachelor of Environmental Engineering</strong></li>
+      <li><em>English</em></li>
+      <li>Guitar</li>
+      <li>Driving</li>
+      <li>Cooking</li>
+    </ul>
+
+    <h2 id="projects">Personal Projects</h2>
+
+    <ul>
+      <li>
+        <a
+          href="math-game/index.html"
+          target="_blank"
+          class="button"
+          >Aprendendo Matemática (Math Game)</a
+        >
+      </li>
+    </ul>
+  </body>
+</html>
